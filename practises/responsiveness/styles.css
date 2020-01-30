@@ -1,0 +1,12 @@
+.navbar {
+    background-color: greenyellow;
+}
+
+.navbar-brand {
+    color: green;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+}
