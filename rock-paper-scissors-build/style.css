@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    text-align: center; 
+  }
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: darkslateblue;
+}
+
+#container {
+    /* border: 2px solid black; */
+    height: 500px;
+    width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgreen;
+}
+  
+button {
+    background-color: lightseagreen;
+    height: 250px;
+    width: 250px;
+    /* border: 2px solid black; */
+    margin: auto;
+    border-radius: 20px;
+
+}
+
+button:active {
+    top: 5px;
+    box-shadow: 0 0 darkslateblue;
+  }
+  
+
+i {
+    font-size: 150px;
+    color: darkslateblue;
+    margin: auto 0;
+}
